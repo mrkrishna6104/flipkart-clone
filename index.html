@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+    <div class="navbar">
+      <div class="logo">WONDER AESTHETICS</div>
+      <div class="menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="slider">
+      <div class="slides">
+          <div class="slide">
+              <img src="jpg.2.jpg" alt="Image 1">
+          </div>
+          <div class="slide">
+              <img src="jpg.1.jpg" alt="Image 2">
+          </div>
+          <div class="slide">
+              <img src="jpg.2.jpg" alt="Image 3">
+          </div>
+      </div>
+      <div class="navigation">
+          <button id="prev">&#10094;</button>
+          <button id="next">&#10095;</button>
+      </div>
+  </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"> <img src="jpg.1.jpg" alt="" style="height: 200px;">
+
+        </div>
+        <div class="col-md-4">
+          <img src="jpg.1.jpg" alt="" style="height: 200px;">
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+  <script>
+    const slides = document.querySelector('.slides');
+    const slide = document.querySelectorAll('.slide');
+    const prevButton = document.getElementById('prev');
+    const nextButton = document.getElementById('next');
+    let currentIndex = 0;
+
+    function updateSlidePosition() {
+        slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    function showNextSlide() {
+        currentIndex = (currentIndex + 1) % slide.length;
+        updateSlidePosition();
+    }
+
+    function showPrevSlide() {
+        currentIndex = (currentIndex - 1 + slide.length) % slide.length;
+        updateSlidePosition();
+    }
+
+    nextButton.addEventListener('click', showNextSlide);
+    prevButton.addEventListener('click', showPrevSlide);
+
+    // Auto slide
+    // setInterval(showNextSlide, 3000);
+</script>
+
+</body>
+
+</html>
