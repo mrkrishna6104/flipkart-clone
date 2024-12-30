@@ -77,9 +77,13 @@ button {
 .box3{
     background-color: rgb(41, 41, 209);
     color: white;
-    height: 350px;
-    padding-top: 50px;
+    /* height: 350px; */
+    padding: 50px 0;
 }
+
+.box3 img{/* height: 100px; */width: 40px;/* margin: 0 auto; */padding-bottom: 15px;}
+
+
 /* .box31{
     height: 250px;
     background-color: rosybrown;
@@ -105,11 +109,11 @@ button {
     float: left;
     width: 25%;
 } */
- #head1{
+
+#head1{
     text-align: center;
     padding: 15px;
  }
-
 
 .box4{
     display: flex;
@@ -156,4 +160,25 @@ button {
     /* background-color: yellowgreen; */
     float: right;
     margin: 80px 80px 0px 0px;
+}
+
+
+.rotate-animation {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation: rotate 2s linear infinite; /* Animation applied */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
