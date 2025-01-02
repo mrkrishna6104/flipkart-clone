@@ -7,11 +7,13 @@
     background-color: rgb(41, 41, 134);
     color: white;
     height: 60px;
-    display: flex;
-    /* justify-content: space-between; */
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+}
+.box11{
+    height: 60px;
+   
 }
 .box2{
     height: 500px;
@@ -84,31 +86,6 @@ button {
     object-fit: cover;
 }
 
-/* .box31{
-    height: 250px;
-    background-color: rosybrown;
-    float: left;
-    width: 25%;     
-}
-
-.box32{
-    height: 250px;
-    background-color: red;
-    float: left;
-    width: 25%;
-}
-.box33{
-    height: 250px;
-    background-color: violet;
-    float: left;
-    width: 25%;
-}
-.box34{
-    height: 250px;
-    background-color: green;
-    float: left;
-    width: 25%;
-} */
 
 #head1{
     text-align: center;
@@ -182,5 +159,12 @@ button {
 
 ul.contact_top{padding: 0; margin: 0;}
 ul.contact_top li{float: left; padding: 10px 10px;  font-size: 15px; list-style: none;}
-ul.contact_top li{color: red; background-color: }
 
+.box3 h4{
+    font-size: 23px;
+}
+
+ul.contact_top{padding: 0; margin: 0;}
+ul.contact_top li{float: left; padding: 10px 10px;  font-size: 15px; list-style: none;}
+
+.box11ul.contact_top li{float: right; padding: 10px 10px;  font-size: 15px; list-style: none;}
