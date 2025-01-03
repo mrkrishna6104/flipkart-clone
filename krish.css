@@ -179,3 +179,46 @@ margin-top: 10px;
     height: 40px;
     border-radius: 10px;
 }
+
+.box7{
+    margin-bottom: 50px;
+}
+
+.box8{
+    background-color: yellow;
+    padding: 20px;
+}
+.box8 img {
+    width: 65%;
+}
+.box8 p{
+    margin-left: 40px;
+}
+.box8 h5{
+    margin-left: 40px;
+    font-size: 30px;
+    color: darkblue;
+}
+#box81{
+    border-left: black 1px solid;
+}
+.box9 h5{
+    font-size: 20px;
+    color: darkblue;
+}
+.box10 img{
+    width: 100%;
+    opacity: 0.2;
+}
+#boxblue{
+    background-color: darkblue;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
+.box10 button{
+    background-color: darkblue;
+    color: white;
+    width: 30%;
+    height: 40px;
+}
