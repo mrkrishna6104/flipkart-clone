@@ -199,9 +199,7 @@ margin-top: 10px;
     font-size: 30px;
     color: darkblue;
 }
-#box81{
-    border-left: black 1px solid;
-}
+
 .box9 h5{
     font-size: 20px;
     color: darkblue;
@@ -222,3 +220,38 @@ margin-top: 10px;
     width: 30%;
     height: 40px;
 }
+.box10 ul{
+    list-style: none;
+    margin: 20px;
+}
+.box10 li{
+    margin: 20px;
+}
+.box12{
+    background-color:  rgb(41, 41, 134);
+    height: 345px;
+    color: white;
+    padding: 50px;
+}
+.box12 img{
+    width: 50%;
+}
+.box12 ul{
+    list-style-type: square;
+}
+.box12 li{
+    margin: 10px;
+}
+.box12 p{
+    margin: 8px;
+}
+#foot{
+    background-color: darkblue;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    height: 50px;
+}
+
+.copyright{background: darkblue; padding: 10px 0; color: #fff;}
+.copyright p{padding: 0px; margin: 0px;}
